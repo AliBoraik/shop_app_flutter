@@ -1,2 +1,3 @@
 // string constants
-const kfirebaseUrl = "https://shop-app-82b9e-default-rtdb.firebaseio.com";
+const kfirebaseUrl = "YOUR-URL-Firebase";
+const kfirebaseKey = "YOUR-KEY-Firebase";
