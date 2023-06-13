@@ -1,14 +1,12 @@
 # Shopping App
 
-![App Screenshot](screenshots/app_screenshot.png)
-
 Welcome to the Shopping App! This Flutter application allows users to browse and purchase products from various categories, manage their shopping cart, and complete the checkout process. It also includes user authentication using Firebase.
 
 ## Screenshots
 
 Here are some screenshots of the app:
 
-![Product Categories](screenshots/product_categories.png)
+![Product Categories](screenshots/shop_app.png)
 
 ## Features
 
