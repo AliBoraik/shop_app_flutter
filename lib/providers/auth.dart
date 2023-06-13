@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:shop/constants.dart';
 
-import '../models/http_exception.dart';
+import '../core/http_exception.dart';
 
 class Auth with ChangeNotifier {
   String? _token;
