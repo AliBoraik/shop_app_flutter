@@ -5,6 +5,7 @@ import 'dart:math';
 import 'package:flutter/widgets.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:shop/constants.dart';
 
 import '../models/http_exception.dart';
 
@@ -34,7 +35,7 @@ class Auth with ChangeNotifier {
   Future<void> _authenticate(
       String email, String password, String urlSegment) async {
     final url =
-        'https://www.googleapis.com/identitytoolkit/v3/relyingparty/$urlSegment?key=AIzaSyCrAh5t2lrblglDWUhEDqGNonb-aS5KrPE';
+        'https://www.googleapis.com/identitytoolkit/v3/relyingparty/$urlSegment?key=$kfirebaseKey';
     try {
       final response = await http.post(
         Uri.parse(url),
