@@ -2,6 +2,10 @@
 
 Welcome to the Shopping App! This Flutter application allows users to browse and purchase products from various categories, manage their shopping cart, and complete the checkout process. It also includes user authentication using Firebase.
 
+## Firebase User Authentication
+
+The Shopping App utilizes Firebase for user authentication. With Firebase user authentication, users can securely create accounts, log in, and manage their profile information.
+
 ## Screenshots
 
 Here are some screenshots of the app:
